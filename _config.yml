@@ -1,0 +1,9 @@
+# GitHub Pages Configuration
+
+# Custom domain
+url: "https://m-fmanagement.ca"
+
+# Theme settings
+theme: minima
+
+# Further configurations can be added here depending on specific requirements
