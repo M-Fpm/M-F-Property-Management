@@ -1,0 +1,45 @@
+.bg-dark-blue {
+  background-color: var(--color-dark-blue);
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.bg-light-blue {
+  background-color: var(--color-light-blue);
+}
+
+:root {
+  --color-dark-blue: #1F3E63;
+  --color-orange: #E46A3A;
+  --color-light-blue: #3AA6D1;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.header {
+  @apply bg-dark-blue text-white p-5;
+}
+
+.footer {
+  @apply bg-light-blue text-center p-5;
+}
+
+.container {
+  @apply mx-auto p-5;
+}
+
+.card {
+  @apply bg-white shadow-lg rounded p-5 m-4;
+}
+
+@media (min-width: 768px) {
+  .card {
+    @apply flex;
+  }
+}
